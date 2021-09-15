@@ -1,0 +1,49 @@
+{
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+
+  "workbench.startupEditor": "none",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "vscode-icons",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "files.autoSave": "afterDelay",
+  "files.associations": {},
+  "editor.fontSize": 14,
+  "java.semanticHighlighting.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "java.test.config": {},
+  "explorer.sortOrder": "type",
+  "editor.rulers": [120],
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "explorer.confirmDelete": false,
+  "editor.snippetSuggestions": "top",
+  "prettier.singleQuote": true,
+  "editor.renderIndentGuides": false,
+  "javascript.suggest.completeFunctionCalls": true,
+  "python.autoComplete.addBrackets": true,
+  "debug.javascript.terminalOptions": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.autoClosingBrackets": "always",
+  "[javascriptreact]": {
+    "editor.autoClosingBrackets": "always"
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Default Dark+",
+  "security.workspace.trust.untrustedFiles": "open"
+}
