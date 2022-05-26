@@ -1,7 +1,4 @@
 {
-  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-
   "workbench.startupEditor": "none",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -10,7 +7,6 @@
   "files.autoSave": "afterDelay",
   "files.associations": {},
   "editor.fontSize": 14,
-  "java.semanticHighlighting.enabled": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmDragAndDrop": false,
   "[javascript]": {
@@ -25,7 +21,6 @@
   "explorer.confirmDelete": false,
   "editor.snippetSuggestions": "top",
   "prettier.singleQuote": true,
-  "editor.renderIndentGuides": false,
   "javascript.suggest.completeFunctionCalls": true,
   "python.autoComplete.addBrackets": true,
   "debug.javascript.terminalOptions": {},
@@ -35,7 +30,9 @@
     "*": false,
     "yaml": false,
     "plaintext": false,
-    "markdown": false
+    "markdown": false,
+    "javascript": false,
+    "c": false
   },
   "liveServer.settings.donotVerifyTags": true,
   "vsicons.dontShowNewVersionMessage": true,
@@ -43,7 +40,45 @@
   "[javascriptreact]": {
     "editor.autoClosingBrackets": "always"
   },
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Default Dark+",
-  "security.workspace.trust.untrustedFiles": "open"
+  "workbench.sideBar.location": "left",
+  "security.workspace.trust.untrustedFiles": "open",
+  "python.analysis.completeFunctionParens": true,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.configureOnOpen": true,
+  "terminal.integrated.fontSize": 13,
+  "jupyter.askForKernelRestart": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.guides.indentation": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+AwesomeRegular'",
+  "terminal.integrated.defaultProfile.osx": "zsh"
 }
