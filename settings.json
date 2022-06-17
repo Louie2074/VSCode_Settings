@@ -3,8 +3,6 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.iconTheme": "vscode-icons",
-  "java.configuration.checkProjectSettingsExclusions": false,
-  "files.autoSave": "afterDelay",
   "files.associations": {},
   "editor.fontSize": 14,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -22,7 +20,6 @@
   "editor.snippetSuggestions": "top",
   "prettier.singleQuote": true,
   "javascript.suggest.completeFunctionCalls": true,
-  "python.autoComplete.addBrackets": true,
   "debug.javascript.terminalOptions": {},
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
@@ -79,6 +76,8 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-  "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+AwesomeRegular'",
-  "terminal.integrated.defaultProfile.osx": "zsh"
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "editor.bracketPairColorization.enabled": true,
+  "files.autoSave": "afterDelay"
 }
